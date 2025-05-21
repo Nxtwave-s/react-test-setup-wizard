@@ -9,7 +9,7 @@ export const ConfigVitest = () => {
       
       <Collapsible title="Installing Vitest">
         <div className="space-y-4">
-          <p>Commands with short explanations:</p>
+          <p>Run these commands:</p>
           <CodeBlock 
             code={`npm install --save-dev vitest
 npm install --save-dev @testing-library/react@16.2.0

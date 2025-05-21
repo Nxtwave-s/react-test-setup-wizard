@@ -12,7 +12,6 @@ export const InstallVitest = () => {
         <h3 className="text-xl font-semibold mb-4" id="section-2.1">2.1 Prerequisites <a id="section-2.1"></a></h3>
         <p className="mb-4">Ensure Node.js ≥ 18 is installed.</p>
         
-        <p className="mb-2">Show this command:</p>
         <CodeBlock 
           code="node --v"
           language="css"

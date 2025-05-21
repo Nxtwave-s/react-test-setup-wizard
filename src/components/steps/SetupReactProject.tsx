@@ -8,7 +8,6 @@ export const SetupReactProject = () => {
       <p>We will be using Vite to create a new React project</p>
       
       <div className="mb-6">
-        <p className="mb-2">Show these commands in code blocks:</p>
         <CodeBlock 
           code={`npm create vite@latest my-react-testing-app -- --template react
 cd my-react-testing-app
@@ -17,7 +16,7 @@ npm install`}
           className="mb-4"
         />
         
-        <p className="mb-2">Show folder structure (trimmed) as code:</p>
+        <p className="mb-2">Folder Structure (trimmed)</p>
         <CodeBlock 
           code={`my-react-testing-app/
 ├── src/

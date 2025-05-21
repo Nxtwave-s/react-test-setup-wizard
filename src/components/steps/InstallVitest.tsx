@@ -13,7 +13,7 @@ export const InstallVitest = () => {
         <p className="mb-4">Ensure Node.js ≥ 18 is installed.</p>
         
         <CodeBlock 
-          code="node --v"
+          code="node --version"
           language="css"
           className="mb-4"
         />

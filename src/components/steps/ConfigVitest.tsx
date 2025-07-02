@@ -5,7 +5,7 @@ import Collapsible from '@/components/Collapsible';
 export const ConfigVitest = () => {
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-bold" id="section-2.3.1">2.3.1 Configuring Vitest</h2>
+      <h3 className="text-xl font-semibold mb-4" id="section-2.3.1">2.3.1 Configuring Vitest</h3>
       
       <Collapsible title="Installing Vitest">
         <div className="space-y-4">

@@ -17,11 +17,23 @@ npm install`}
         />
         
         <p className="mb-2 font-medium">Folder Structure</p>
-        <img 
-          src="/lovable-uploads/581019dc-e0ab-4210-8d22-35c31e931936.png" 
-          alt="React project folder structure" 
-          className="max-w-full h-auto border rounded-lg shadow-sm"
-        />
+        <div className="bg-gray-50 border rounded-lg p-4 font-mono text-sm">
+          <div className="space-y-1">
+            <div><span className="text-blue-600 font-semibold">my-react-testing-app/</span></div>
+            <div className="ml-2">├── <span className="text-purple-600 font-semibold">public/</span></div>
+            <div className="ml-4">└── vite.svg</div>
+            <div className="ml-2">├── <span className="text-purple-600 font-semibold">src/</span></div>
+            <div className="ml-4">├── <span className="text-green-600 font-semibold">App.css</span></div>
+            <div className="ml-4">├── <span className="text-green-600 font-semibold">App.jsx</span></div>
+            <div className="ml-4">├── <span className="text-green-600 font-semibold">index.css</span></div>
+            <div className="ml-4">└── <span className="text-green-600 font-semibold">main.jsx</span></div>
+            <div className="ml-2">├── <span className="text-orange-600 font-semibold">.gitignore</span></div>
+            <div className="ml-2">├── <span className="text-orange-600 font-semibold">index.html</span></div>
+            <div className="ml-2">├── <span className="text-orange-600 font-semibold">package.json</span></div>
+            <div className="ml-2">├── <span className="text-orange-600 font-semibold">README.md</span></div>
+            <div className="ml-2">└── <span className="text-orange-600 font-semibold">vite.config.js</span></div>
+          </div>
+        </div>
       </div>
     </div>
   );

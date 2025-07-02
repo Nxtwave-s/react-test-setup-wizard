@@ -5,7 +5,7 @@ import Collapsible from '@/components/Collapsible';
 export const ConfigVitest = () => {
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-bold" id="section-3.1">3.1 Configuring Vitest</h2>
+      <h2 className="text-2xl font-bold" id="section-2.3.1">2.3.1 Configuring Vitest</h2>
       
       <Collapsible title="Installing Vitest">
         <div className="space-y-4">
@@ -22,7 +22,7 @@ npm install --save-dev @testing-library/user-event`}
       </Collapsible>
       
       <div>
-        <h3 className="text-xl font-semibold mb-4" id="section-3.2">3.2 Create src/setupTests.js:</h3>
+        <h3 className="text-xl font-semibold mb-4" id="section-2.3.2">2.3.2 Create src/setupTests.js:</h3>
         <CodeBlock 
           code={`import '@testing-library/jest-dom/vitest';`}
           language="js"

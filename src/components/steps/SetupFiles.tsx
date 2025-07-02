@@ -5,7 +5,7 @@ export const SetupFiles = () => {
   return (
     <div className="space-y-6">
       <div>
-        <h3 className="text-xl font-semibold mb-4" id="section-4.2">3.3 vite.config.js <a id="section-4.2"></a></h3>
+        <h3 className="text-xl font-semibold mb-4" id="section-2.3.3">2.3.3 vite.config.js <a id="section-2.3.3"></a></h3>
         <CodeBlock 
           code={`import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -24,13 +24,10 @@ export default defineConfig({
       </div>
       
       <div>
-        <h3 className="text-xl font-semibold mb-4" id="section-4.3">3.4 package.json Scripts <a id="section-4.3"></a></h3>
+        <h3 className="text-xl font-semibold mb-4" id="section-2.3.4">2.3.4 package.json Scripts <a id="section-2.3.4"></a></h3>
         <CodeBlock 
           code={`{
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui"
   }
@@ -41,7 +38,7 @@ export default defineConfig({
       </div>
       
       <div>
-        <p className="mb-2">Install Vitest UI (optional but recommended):</p>
+        <h3 className="text-xl font-semibold mb-4" id="section-2.3.5">2.3.5 Install Vitest UI (optional but recommended):</h3>
         <CodeBlock 
           code={`npm install --save-dev @vitest/ui`}
           language="css"

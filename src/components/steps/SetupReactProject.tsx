@@ -23,15 +23,15 @@ npm install`}
             <div className="ml-2">├── <span className="text-purple-600 font-semibold">public/</span></div>
             <div className="ml-4">└── vite.svg</div>
             <div className="ml-2">├── <span className="text-purple-600 font-semibold">src/</span></div>
-            <div className="ml-4">├── <span className="text-green-600 font-semibold">App.css</span></div>
-            <div className="ml-4">├── <span className="text-green-600 font-semibold">App.jsx</span></div>
-            <div className="ml-4">├── <span className="text-green-600 font-semibold">index.css</span></div>
-            <div className="ml-4">└── <span className="text-green-600 font-semibold">main.jsx</span></div>
-            <div className="ml-2">├── <span className="text-orange-600 font-semibold">.gitignore</span></div>
-            <div className="ml-2">├── <span className="text-orange-600 font-semibold">index.html</span></div>
-            <div className="ml-2">├── <span className="text-orange-600 font-semibold">package.json</span></div>
-            <div className="ml-2">├── <span className="text-orange-600 font-semibold">README.md</span></div>
-            <div className="ml-2">└── <span className="text-orange-600 font-semibold">vite.config.js</span></div>
+            <div className="ml-4">├── App.css</div>
+            <div className="ml-4">├── App.jsx</div>
+            <div className="ml-4">├── index.css</div>
+            <div className="ml-4">└── main.jsx</div>
+            <div className="ml-2">├── .gitignore</div>
+            <div className="ml-2">├── index.html</div>
+            <div className="ml-2">├── package.json</div>
+            <div className="ml-2">├── README.md</div>
+            <div className="ml-2">└── vite.config.js</div>
           </div>
         </div>
       </div>

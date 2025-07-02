@@ -19,19 +19,18 @@ npm install`}
         <p className="mb-2 font-medium">Folder Structure</p>
         <div className="bg-gray-50 border rounded-lg p-4 font-mono text-sm">
           <div className="space-y-1">
-            <div><span className="text-blue-600 font-semibold">my-react-testing-app/</span></div>
-            <div className="ml-2">├── <span className="text-purple-600 font-semibold">public/</span></div>
-            <div className="ml-4">└── vite.svg</div>
-            <div className="ml-2">├── <span className="text-purple-600 font-semibold">src/</span></div>
-            <div className="ml-4">├── App.css</div>
-            <div className="ml-4">├── App.jsx</div>
-            <div className="ml-4">├── index.css</div>
-            <div className="ml-4">└── main.jsx</div>
-            <div className="ml-2">├── .gitignore</div>
-            <div className="ml-2">├── index.html</div>
-            <div className="ml-2">├── package.json</div>
-            <div className="ml-2">├── README.md</div>
-            <div className="ml-2">└── vite.config.js</div>
+            <div><span className="text-blue-600 font-semibold">MY-REACT-TESTING-APP</span></div>
+            <div className="ml-2">▷ coverage</div>
+            <div className="ml-2">▷ node_modules</div>
+            <div className="ml-2">▷ public</div>
+            <div className="ml-2">▷ src</div>
+            <div className="ml-2">◆ .gitignore</div>
+            <div className="ml-2">JS eslint.config.js</div>
+            <div className="ml-2">◇ index.html</div>
+            <div className="ml-2">{} package-lock.json</div>
+            <div className="ml-2">{} package.json</div>
+            <div className="ml-2">📄 README.md</div>
+            <div className="ml-2">JS vite.config.js</div>
           </div>
         </div>
       </div>
